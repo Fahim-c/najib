@@ -33,8 +33,13 @@ img {
 }
 
 .bio {
-    margin-bottom: 80px;
     background-color: green;
     padding: 20px;
     text-decoration: underline;
+}
+
+.summary {
+    margin-bottom: 80px;
+    background-color: green;
+    text-weight: bold;
 }
