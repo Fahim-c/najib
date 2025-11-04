@@ -86,3 +86,7 @@ footer {
     width: 100%;
 }
 
+* {
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif, serif;
+}
+
