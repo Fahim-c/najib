@@ -90,3 +90,13 @@ footer {
     font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif, serif;
 }
 
+.wedding {
+    text-align: center;
+    color: red;
+
+}
+
+.other {
+    border-radius: 10px;
+    border: 1px solid black;
+}
