@@ -1,5 +1,5 @@
 body {
-    background-image: url(./background.jpg);
+    background-image: url(./assets/background.jpg);
     background-size: cover;
     z-index: -1;
     /* background-position: center;
@@ -56,3 +56,4 @@ a {
     border: none;
     box-shadow: 4px 4px 10px rgb(8, 0, 255);
 }
+
