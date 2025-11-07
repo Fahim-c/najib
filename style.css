@@ -46,7 +46,8 @@ img {
 }
 
 a {
-    background-color: darkorange;
+    background-color: slateblue;
+    border: 1px solid orange;
     color: white;
     text-decoration: none;
     padding: 5px;
@@ -55,5 +56,6 @@ a {
     font-size: 16px;
     box-shadow: 4px 4px 10px rgb(8, 0, 255);
 }
+
 
 
