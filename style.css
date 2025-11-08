@@ -8,70 +8,58 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.titlesection {
-    text-align: right;
-    padding-right: 5%;
-}
 
-.title {
-    font-size: 4rem;
-    margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
-.subheading {
-    padding-top: 0%;
-    font-size: 1.1rem;
-}
-
-ul {
+.navcontainer {
     display: flex;
     gap: 20px;
 }
 
-li  {
+li {
 
-    list-style: none;
-    
+    list-style-type: none;
+    text-decoration: underline;
 }
 
-li > a {
+a {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin-bottom: 0px;
+    text-align: right;
+    margin-right: 5%;
+}
 
-img {
-    border-radius: 20px;
+.heading {
+    display: flex;
+    align-items: flex-end;
+}
+
+.subheading {
+    margin-left: auto; 
+    margin-right: 5%;
+}
+
+.headshot, .partyphoto {
+    border-radius: 5%;
+    background-size: cover;
+    object-fit: cover;
     display: block;
-    margin: 10px auto;
 }
 
-.image {
-    text-align: center;
-}
-
-.cv {
-    background-color: slateblue;
-    border: 1px solid orange;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 4px;
-    margin: 5px;
-    font-size: 16px;
-    box-shadow: 4px 4px 10px rgb(8, 0, 255);
-}
-
-.container {
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
     flex-direction: column;
-    width: 400px;
-    margin: 0 auto;
 }
 
-
+.cvbutton {
+    background-color: darkorange;
+    padding: 10px;
+    border-radius: 10px;
+}
