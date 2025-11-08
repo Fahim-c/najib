@@ -30,8 +30,16 @@ ul {
     gap: 20px;
 }
 
-li {
+li  {
+
     list-style: none;
+    
+}
+
+li > a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 
 
@@ -45,7 +53,7 @@ img {
     text-align: center;
 }
 
-a {
+.cv {
     background-color: slateblue;
     border: 1px solid orange;
     color: white;
@@ -56,6 +64,8 @@ a {
     font-size: 16px;
     box-shadow: 4px 4px 10px rgb(8, 0, 255);
 }
+
+
 
 
 
